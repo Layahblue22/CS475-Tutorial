@@ -1,0 +1,73 @@
+body{
+  padding: 25px;
+}
+.title {
+    color: #7AA874;
+}
+.ui-message{
+  
+  padding: 10px 30px 10px 15px;
+  Background-color: #7AA874;
+  font-size: 13px;
+  font-weight: bold;
+  border: 5px solid #DBE4C6; 
+  position: relative;
+}
+.ui-close{
+  Background-color: #F2E1AC;
+  color: #8A7A49;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1px 6px;
+  cursor: pointer;
+}
+
+.about-placeholder{
+  color: blue;
+  background-color: #DBE4C6;
+  
+}
+
+
+
+
+div#contact_form {
+justify-content: space-evenly;
+border: 2px solid red;
+}
+div.input-box {
+
+}
+div.input-box label {
+
+
+}
+div.input-box input {
+font-size: 1.5rem;
+
+}
+input.button {
+font-size: 1.5rem;
+background: pink;
+color: white;
+border: 1px solid black;
+padding: 4px 4px;
+}
+div.greetings {
+text-align: center;
+font-size: 1.2rem;
+background-color: green;
+
+}
+div.input-box input.error {
+  border: 2px dashed red;
+  background: #fee;
+}
+
+div.input-box label.error {
+  color: red;
+  font-size: 1rem;
+  text-align: right;
+  margin: 10px 0;
+}
